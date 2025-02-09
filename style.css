@@ -2,3 +2,20 @@
   margin: 0;
   padding: 0;
 }
+
+p{
+  font-size: 1rem;
+}
+
+.mainBody{
+  background-color: hsl(47, 88%, 63%);
+}
+
+.blogPreviewContainer{
+  display: inline-block;
+  text-align: center;
+
+  background-color: white;
+  border: 1px solid red;
+}
+
