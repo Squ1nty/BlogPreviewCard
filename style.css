@@ -8,19 +8,32 @@ p{
   font-size: 1rem;
 }
 
+body{
+  text-align: center;
+}
+
 .mainBody{
   background-color: hsl(47, 88%, 63%);
 }
 
 .blogPreviewContainer{
   display: inline-block;
-
   background-color: white;
-  border: 1px solid red;
+
+  padding: 20px 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.textContainer{
+  text-align: left;
 }
 
 .imgContainer{
   text-align: center;
+}
+.imgPreview{
+  border-radius: 10px;
 }
 
 .blogDescContainer{
