@@ -14,9 +14,20 @@ p{
 
 .blogPreviewContainer{
   display: inline-block;
-  text-align: center;
 
   background-color: white;
   border: 1px solid red;
 }
 
+.imgContainer{
+  text-align: center;
+}
+
+.blogDescContainer{
+  width: 350px;
+}
+
+.userContainer{
+  display: flex;
+  align-items: center;
+}
