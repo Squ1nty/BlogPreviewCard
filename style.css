@@ -14,13 +14,14 @@ body{
 
 .mainBody{
   background-color: hsl(47, 88%, 63%);
+  
 }
 
 .blogPreviewContainer{
   display: inline-block;
   background-color: white;
 
-  padding: 20px 15px;
+  padding: 20px;
   border-radius: 20px;
 
   border: 1px solid black;
@@ -32,6 +33,7 @@ body{
 }
 .imgPreview{
   border-radius: 10px;
+  width: 375px;
 }
 
 .textContainer{
