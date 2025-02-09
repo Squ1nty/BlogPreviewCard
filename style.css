@@ -9,15 +9,25 @@ p{
 }
 
 body{
-  text-align: center;
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+  place-items: center;
 }
 
 .mainBody{
+  display: grid;
+  place-items: center;
   background-color: hsl(47, 88%, 63%);
-  
+  height: 800px;
+  width: 1000px;
+  position: relative;
 }
 
 .blogPreviewContainer{
+  position: absolute;
+
   display: inline-block;
   background-color: white;
 
@@ -43,7 +53,6 @@ body{
 .learningTagContainer{
   display: inline-block;
   margin-top: 15px;
-  margin-bottom: 10px;
 
   background-color: hsl(47, 88%, 63%);
 
@@ -52,11 +61,39 @@ body{
   border-radius: 5px;
 }
 
+.publishedDateContainer{
+  margin: 15px 0px;
+}
+.publishedDate{
+  color: hsl(0, 0%, 7%);
+}
+
+.blogTitleContainer{
+  margin: 20px 0px;
+}
+.blogTitle{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
 .blogDescContainer{
+  margin: 15px 0px;
   width: 350px;
+}
+.blogDesc{
+  color: hsl(0, 0%, 42%);
+  line-height: 1.5rem;
 }
 
 .userContainer{
   display: flex;
   align-items: center;
+  gap: 0.6rem;
+}
+
+.userProfileImg{
+  width: 35px;
+}
+.username{
+  font-weight: 800;
 }
