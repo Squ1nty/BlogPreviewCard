@@ -25,15 +25,15 @@ body{
   border: 1px solid black;
 }
 
-.textContainer{
-  text-align: left;
-}
-
 .imgContainer{
   text-align: center;
 }
 .imgPreview{
   border-radius: 10px;
+}
+
+.textContainer{
+  text-align: left;
 }
 
 .blogDescContainer{
