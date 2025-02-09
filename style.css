@@ -21,8 +21,10 @@ body{
   background-color: white;
 
   padding: 20px 15px;
-  border-radius: 10px;
+  border-radius: 20px;
+
   border: 1px solid black;
+  box-shadow: 7px 7px 0px black;
 }
 
 .imgContainer{
@@ -34,6 +36,18 @@ body{
 
 .textContainer{
   text-align: left;
+}
+
+.learningTagContainer{
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+  background-color: hsl(47, 88%, 63%);
+
+  font-weight: 800;
+  padding: 5px 12px 5px 12px;
+  border-radius: 5px;
 }
 
 .blogDescContainer{
